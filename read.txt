@@ -1,0 +1,99 @@
+// const { parse } = require('path');
+// const readline=require('readline');
+// const { clearInterval } = require('timers');
+// const a=readline.createInterface({
+//     input:process.stdin,
+//     output:process.stdout});
+// a.question('Enter is Value: ',(userInput)=>{
+//     const num=parseFloat(userInput);
+//     if(!isNaN(num)){
+//         console.log('your value: ',(userInput));
+//     }
+//     else{
+//         console.log('invalid value');
+//     }
+//     a.close();
+// });
+//-------------------------------------------------------------------------------//
+/*
+function table(fromNumber){
+    let num=0;
+    console.log("table: ");
+    let interval=setInterval(function(){
+        num++;
+        if(num<11){
+            console.log(fromNumber,"*",num,"=",
+            fromNumber*num);
+        }else{
+            console.log('end');
+            clearInterval(interval);
+        }
+    },1000);
+}
+
+const { parse } = require('path');
+const readline=require('readline');
+const { clearInterval } = require('timers');
+const a=readline.createInterface({
+    input:process.stdin,
+    output:process.stdout});
+a.question('Enter is Value: ',(userInput)=>{
+    const num=parseFloat(userInput);
+    if(!isNaN(num)){
+        // console.log('your value: ',(userInput));
+        table(num);
+    }
+    else{
+        console.log('invalid value');
+    }
+    a.close();
+});*/
+// **************************************************************************//
+// function cd(n, t) {
+//     console.log(n, '*', t, '=', n * t);
+//     t = t + 1;
+//     if (t < 11) {
+//         setTimeout(function () {
+//             cd(n, t);
+//         }, 1000);
+//     } else {
+//         clearTimeout(); // Corrected the function name
+//     }
+// }
+
+// const prompt = require('prompt-sync')();
+// const num = parseFloat(prompt('Enter a number: ')); // Added parseFloat to convert input to a number
+// cd(num, 1);
+//----------------------------------------------------------------------//
+/*
+const { parse } = require('path');
+const readline=require('readline');
+const { clearInterval } = require('timers');
+const a=readline.createInterface({
+    input:process.stdin,
+    output:process.stdout});
+a.question('Enter is Value: ',(userInput1)=>{
+    a.question('Enter is Value: ',(userInput2)=>{
+
+    const num1=parseFloat(userInput1);
+    const num2=parseFloat(userInput2);
+    if((isNaN(num1))|| (isNaN(num2))){
+        console.log('invalid input ');
+        a.close();
+        return;
+        
+    }
+    else{
+        const sum=num1+num2;
+        const sub=num1-num2;
+        const div=num1/num2;
+        const mul=num1*num2;
+        console.log("Addition: ",sum);
+        console.log("Subtraction: ",sub);
+        console.log("Division: ",div);
+        console.log("Multiplication: ",mul);
+    }
+    a.close();
+})});
+*/
+//___________________________________________________________________________//
