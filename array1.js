@@ -27,7 +27,7 @@
 
 
 // var array_1=[2,3,4,5,6];
-// array_1.forEach(function(_,i){       //we can also write function(num,i) 
+// array_1.forEach(function(x,i){       //we can also write function(num,i) 
 //     array_1[i] **=2;
 // })
 // console.log(array_1);
@@ -73,7 +73,7 @@
 // console.log(names);
 
 
-// var numbers=[61,3,101,4];
+// var numbers=[61,4,8,9,10,18];
 // var even= numbers.find(function(x){
 //     return x%2==0;
 // })
